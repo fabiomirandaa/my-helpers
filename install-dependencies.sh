@@ -1,7 +1,8 @@
 #Atualizar o sistema
 sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install -y software-properties-common python-software-properties build-essential libssl-dev
+sudo apt-get upgrade -y
+sudo apt-get install -y software-properties-common 
+sudo apt-get install -y python-software-properties build-essential libssl-dev
 
 #Java
 sudo add-apt-repository -y ppa:webupd8team/java
